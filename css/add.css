@@ -1,0 +1,345 @@
+/* HEADER ====================== */
+html {
+    
+    background: url();
+}
+
+.hbgind {
+    
+    background: url(../img/bgindex.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    
+}
+
+.hbgmc {
+    
+    background: url(../img/bgmc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.hbgvs {
+    
+    background: url(../img/bgvs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.hbget {
+    
+    background: url(../img/bget.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.hbgms {
+    
+    background: url(../img/bgms.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.hbgjup {
+    
+    background: url(../img/bgup.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.hbgst {
+    
+    background: url(../img/bgst.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.hbgur {
+    
+    background: url(../img/bgur.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.hbgnt {
+    
+    background: url(../img/bgnp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.hbginf {
+    
+    background: url(../img/bgindex.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 70px;
+    color: white;
+    text-decoration-line: none;
+}
+
+
+.title1 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+
+
+/* CONTENT ====================== */
+
+.content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.cntitle {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    width: 1020px;
+    
+}
+
+p {
+    width: 1020px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    text-align: justify;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+.txtimg {
+    
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1020px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: center;
+    
+    
+    
+}
+
+.txtimg img {
+    
+    width: 400px;
+    max-width: 100%;
+}
+
+.txtimg a {
+    
+    width: 400px;
+}
+
+.footer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000e38;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 3vh;
+    padding-right: 70px;
+    padding-left: 70px;
+    
+}
+
+.footer a {
+    
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-variant: small-caps;
+    
+}
+
+/* MEDIA 1 ====================== */
+
+@media (max-width: 1200px) {
+    
+    p {
+        width: 850px;
+    }
+    
+    .cntitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    width: 850px;
+    margin-left: 0px;
+    }
+    
+    .txtimg img {
+    
+    width: 350px;
+}
+    
+    .txtimg a {
+    
+    width: 350px;
+}
+
+    
+}
+
+/* MEDIA 2 ====================== */
+
+@media (max-width: 800px) {
+    
+    .title {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    }
+    
+    .titleind {
+    
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration-line: none;
+}
+    
+    .title1 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    margin-bottom: 50px;
+    }
+    
+    
+    
+    .cntitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    }
+    
+    p {  
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    
+    .txtimg img {
+    
+    width: 300px;
+    }
+    
+    .footer {
+    
+    height: 6vh;
+    
+}
+    
+    .txtimg a {
+    
+    width: 300px;
+}
+    
+    
+    
+}
+

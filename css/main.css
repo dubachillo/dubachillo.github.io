@@ -1,0 +1,303 @@
+/* HEADEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEER */
+.home {
+    
+    height: 94vh;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.plgr1 {
+    
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.plgr2 {
+    
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.pl {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.plgr1 a{
+    
+    display: none;
+}
+
+.plgr2 a{
+    
+    display: none;
+}
+
+.pl img{
+    
+    
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.plimg1 { background: url(../img/mercury.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg2 { background: url(../img/venus.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg3 { background: url(../img/planet-earth.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg4 { background: url(../img/mars.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg5 { background: url(../img/jupiter.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg6 { background: url(../img/saturn.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg7 { background: url(../img/uranus.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg8 { background: url(../img/neptune.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+    
+
+
+
+.pl:hover .plimg1 {background: url(../img/mercuryh.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg2 {background: url(../img/venush.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg3 { background: url(../img/planet-earthh.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg4 { background: url(../img/marsh.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg5 { background: url(../img/jupiterh.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg6 { background: url(../img/saturnh.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg7 { background: url(../img/uranush.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg8 { background: url(../img/neptuneh.png); background-position: center;
+    background-size: cover; width: 110px; height: 110px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+    
+}
+
+.pl:hover a {
+    
+    color: dimgray;
+}
+
+.pl a {
+    
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.pl a:hover {
+    
+    color: dimgray;
+}
+
+.title {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+    background: url(../img/bgindex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #000e38;
+    padding: 10px;
+    text-shadow: #000000 0px 0px 10px; 
+    
+}
+
+.title1 {
+    
+    display: block;
+    font-family: sans-serif;
+    font-size: 65px;
+    text-shadow: #000000 0px 0px 0px;
+    line-height: 100px;
+
+}
+
+.title a {
+    
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    text-shadow: #000000 0px 0px 0px;
+}
+
+.footer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000e38;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 3vh;
+    padding-right: 70px;
+    padding-left: 70px;
+
+  
+    
+}
+
+.footer a {
+    
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-variant: small-caps;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+/* MEDIA ---------------------------------------- */
+@media (max-width: 1200px) {
+
+.title1 {
+    
+    font-family: sans-serif;
+    font-size: 55px;
+    
+}
+    
+.title2 {
+    
+    font-size: 30px;
+              
+}
+    
+.pl a {
+    
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+    
+.plimg1 { background: url(../img/mercury.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg2 { background: url(../img/venus.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg3 { background: url(../img/planet-earth.png); background-position:center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg4 { background: url(../img/mars.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg5 { background: url(../img/jupiter.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg6 { background: url(../img/saturn.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg7 { background: url(../img/uranus.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg8 { background: url(../img/neptune.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+
+
+.pl:hover .plimg1 {background: url(../img/mercuryh.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg2 {background: url(../img/venush.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg3 { background: url(../img/planet-earthh.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg4 { background: url(../img/marsh.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg5 { background: url(../img/jupiterh.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg6 { background: url(../img/saturnh.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg7 { background: url(../img/uranush.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg8 { background: url(../img/neptuneh.png); background-position: center;
+    background-size: cover; width: 90px; height: 90px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+    
+    
+}
+
+@media (max-width: 800px) {
+
+.title1 {
+    
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+    
+.title2 {
+    
+    font-size: 10px;
+              
+}
+    
+.plimg1 { background: url(../img/mercury.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg2 { background: url(../img/venus.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg3 { background: url(../img/planet-earth.png); background-position:center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg4 { background: url(../img/mars.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg5 { background: url(../img/jupiter.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg6 { background: url(../img/saturn.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg7 { background: url(../img/uranus.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.plimg8 { background: url(../img/neptune.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+
+
+.pl:hover .plimg1 {background: url(../img/mercuryh.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg2 {background: url(../img/venush.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg3 { background: url(../img/planet-earthh.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg4 { background: url(../img/marsh.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg5 { background: url(../img/jupiterh.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg6 { background: url(../img/saturnh.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg7 { background: url(../img/uranush.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+.pl:hover .plimg8 { background: url(../img/neptuneh.png); background-position: center;
+    background-size: cover; width: 70px; height: 70px; display: block; box-sizing: border-box; margin-bottom: 4px;}
+    
+    
+}
+
